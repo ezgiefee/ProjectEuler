@@ -1,4 +1,5 @@
 public class FirstProblem {
+    //Find the sum of all the multiples of 3 or 5 below 1000
     private int sum =0;
     public int result(){
         for(int i=0; i<1000; i++){

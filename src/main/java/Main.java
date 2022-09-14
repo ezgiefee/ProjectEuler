@@ -1,8 +1,9 @@
 public class Main {
     public static void main(String[] args){
 
-        ThirdProblem thirdProblem = new ThirdProblem();
-        thirdProblem.findLargestPrime(600851475143L);
+        FourthProblem fourthProblem = new FourthProblem();
+        fourthProblem.palindrome(987789);
+        fourthProblem.result();
 
     }
 }

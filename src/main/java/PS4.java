@@ -4,7 +4,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class FourthProblem {
+public class PS4 {
     public int result(){
         int max = 0;
         for(int i=999; i>99; i--){

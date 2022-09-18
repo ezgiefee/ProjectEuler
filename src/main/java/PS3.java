@@ -1,5 +1,5 @@
 /* What is the largest prime factor of the number 600851475143 ? */
-public class ThirdProblem {
+public class PS3 {
     public Long findLargestPrime(Long number){
         for(Long i = 2L; i < Math.sqrt(number); i++){
             if(number % i == 0L ){

@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args){
-
-        PS5 ps5 = new PS5();
-        ps5.multiple();
-
+        PS6 ps6 = new PS6();
+        System.out.println("Result is " + ps6.naturalDifference(100));
     }
 }

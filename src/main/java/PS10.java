@@ -2,6 +2,9 @@
 //Find the sum of all the primes below two million.
 
 public class PS10 {
+    public static void main(String[] args) {
+        System.out.println(getPrimeNumbersSum());
+    }
     public static Long getPrimeNumbersSum(){
         Long result = 2L;
         int count = 0;

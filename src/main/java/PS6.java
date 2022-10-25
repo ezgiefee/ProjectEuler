@@ -6,6 +6,9 @@
 // one hundred natural numbers and the square of the sum.
 
 public class PS6 {
+    public static void main(String[] args) {
+        System.out.println(naturalDifference(100));
+    }
     public static int naturalDifference(int n){
         int result = 0;
         int sum1 = 0;

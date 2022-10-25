@@ -5,7 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PS4 {
-    public int result(){
+    public static void main(String[] args) {
+        result();
+    }
+    public static int result(){
         int max = 0;
         for(int i=999; i>99; i--){
             for(int j=999; j>99; j--) {
@@ -18,7 +21,7 @@ public class PS4 {
         return max;
     }
 
-    public boolean palindrome(int number) {
+    public static boolean palindrome(int number) {
         List numbers = new ArrayList();
         boolean isPalindrome = true;
         int temp = 0;

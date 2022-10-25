@@ -3,6 +3,9 @@
 import java.math.BigInteger;
 
 public class PS13 {
+    public static void main(String[] args) {
+        largestSum();
+    }
     public static void largestSum(){
         BigInteger[] number = { new BigInteger("37107287533902102798797998220837590246510135740250"),
                new BigInteger("46376937677490009712648124896970078050417018260538"),

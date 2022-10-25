@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PS5 {
+    public static void main(String[] args) {
+        multiple();
+    }
     public static void multiple(){
         int multiple = 2;
         int k = 1;

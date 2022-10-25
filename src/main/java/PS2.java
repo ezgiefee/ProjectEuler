@@ -2,8 +2,10 @@
 // whose values do not exceed four million, find the
 // sum of the even-valued terms.
 public class PS2 {
-
-    public int result(){
+    public static void main(String[] args) {
+        result();
+    }
+    public static int result(){
         int sum = 0;
         int count = 1;
         int result = 0;
@@ -22,7 +24,7 @@ public class PS2 {
         return sum;
     }
 
-    public int fibonacci(int n){
+    public static int fibonacci(int n){
         if(n == 0 || n == 1){
             return n;
         } else {

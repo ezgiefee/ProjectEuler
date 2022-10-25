@@ -14,6 +14,9 @@
 //What is the value of the first triangle number to have over five hundred divisors?
 
 public class PS12 {
+    public static void main(String[] args) {
+        calculateDivisor();
+    }
     public static void calculateDivisor(){
         int predict = 1;
         int triangle = 0;

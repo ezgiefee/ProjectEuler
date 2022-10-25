@@ -6,6 +6,9 @@
 // * (up, down, left, right, or diagonally) in the 20×20 grid?
 // */
 public class PS11 {
+    public static void main(String[] args) {
+        result();
+    }
     public static void result(){
         int grid [][] = {
                 {8,02,22,97,38,15,00,40,00,75,04,05,07,78,52,12,50,77,91,8},

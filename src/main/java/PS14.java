@@ -11,6 +11,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PS14 {
+    public static void main(String[] args) {
+        getCollatzNumber();
+    }
     public static void getCollatzNumber(){
         int result = 0;
         int limit = 1000000;

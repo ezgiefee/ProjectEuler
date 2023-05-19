@@ -1,7 +1,6 @@
 var number = 2;
 var primeCount = 1;
 
-
 while (primeCount < 10001) {
   number++;
   if (prime(number)) {

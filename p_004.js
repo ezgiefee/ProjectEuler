@@ -20,4 +20,4 @@ function largestPalindrome() {
   return maxSum;
 }
 
-console.log(largestPalindrome());
+console.log("The largest palindrome made from the product of two 3-digit numbers is ",largestPalindrome());

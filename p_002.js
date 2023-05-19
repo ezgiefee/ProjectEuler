@@ -11,6 +11,6 @@ while (current < 4000000) {
   }
 }
 
-console.log(sum);
+console.log("Sum is : ",sum);
 
 

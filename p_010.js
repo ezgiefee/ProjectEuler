@@ -6,7 +6,7 @@ for (let i = 0; i < 2000000; i++){
   }
 }
 
-console.log(sum);
+console.log("The result is ", sum);
 
 function prime(number) {
   if (number <= 1) {

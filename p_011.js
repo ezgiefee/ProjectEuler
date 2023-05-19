@@ -53,4 +53,4 @@ for (let i = 0; i < 17; i++) {
     result = Math.max(result, product);
   }
 }
-console.log("Result is: " + result);
+console.log("Result is " + result);

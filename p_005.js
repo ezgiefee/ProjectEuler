@@ -31,5 +31,5 @@ function divider(number) {
   return arr;
 }
 
-console.log(products(20));
+console.log("The number is : ",products(20));
 

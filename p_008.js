@@ -28,5 +28,5 @@ while (start <= length-13) {
   start++;
 }
 
-console.log(tempProduct);
+console.log("The result is ",tempProduct);
 

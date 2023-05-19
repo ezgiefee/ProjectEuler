@@ -1,6 +1,4 @@
-var temp = 0;
-var sum = 0;
-var third = 0;
+var temp = 0, sum = 0, third = 0;
 
 for (let i = 1; i < 333; i++){
   for (let j = i + 1; j < 500; j++){
